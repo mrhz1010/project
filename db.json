@@ -1,0 +1,94 @@
+{
+    "ordersTable":[{
+        "id":1,
+        "code":"#876364",
+        "productsName":"Camera Lens",
+        "price":"178",
+        "totalOrder":"325",
+        "totalAmount":"1.46.660",
+        "image":"assets/Rectangle 91.png"
+    },
+    {
+        "id":2,
+        "code":"#876368",
+        "productsName":"Black Sleep Dress",
+        "price":"14",
+        "totalOrder":"53",
+        "totalAmount":"46.660",
+        "image":"assets/Rectangle 90.png"
+    },
+    {
+        "id":3,
+        "code":"#876412",
+        "productsName":"Argan Oil",
+        "price":"21",
+        "totalOrder":"78",
+        "totalAmount":"3.46.676",
+        "image":"assets/Rectangle 111.png"
+    },
+    {
+        "id":4,
+        "code":"#876621",
+        "productsName":"EAU DE Parfum",
+        "price":"32",
+        "totalOrder":"98",
+        "totalAmount":"3.46.981",
+        "image":"assets/Rectangle 110.png"
+    }],
+
+    
+    "product":[{
+        "id":5,
+        "sn":"1",
+        "productsName":"Bluetooth Devices",
+        "price":"10",
+        "totalOrder":"34.666",
+        "totalAmount":"3.46.660",
+        "image":"assets/Rectangle 90 (2).png"
+    },
+    {
+        "id":6,
+        "sn":"2",
+        "productsName":"Airdot",
+        "price":"15",
+        "totalOrder":"20.000",
+        "totalAmount":"3.00.000",
+        "image":"assets/Rectangle 91 (2).png"
+    },
+    {
+        "id":7,
+        "sn":"3",
+        "productsName":"Shoes",
+        "price":"10",
+        "totalOrder":"15.000",
+        "totalAmount":"1.50.000",
+        "image":"assets/Rectangle 92.png"
+    },
+    {
+        "id":8,
+        "sn":"4",
+        "productsName":"Kids T-Shirt",
+        "price":"12",
+        "totalOrder":"10.000",
+        "totalAmount":"1.20.000",
+        "image":"assets/Rectangle 93.png"
+    },
+    {
+        "id":9,
+        "sn":"5",
+        "productsName":"Smart Watch",
+        "price":"12",
+        "totalOrder":"10.000",
+        "totalAmount":"1.20.000",
+        "image":"assets/Rectangle 94.png"
+    },
+    {
+        "id":10,
+        "sn":"6",
+        "productsName":"Girls Top",
+        "price":"12",
+        "totalOrder":"10.000",
+        "totalAmount":"1.20.000",
+        "image":"assets/Rectangle 95.png"
+    }]
+}

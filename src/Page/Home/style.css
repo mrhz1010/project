@@ -1,0 +1,123 @@
+.container-home{
+    height: 200px;
+}
+
+.ul-home{
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar-color-Save{
+    background-color: #eff4ff !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 1vw !important
+}
+
+.avatar-color-Stock{
+    background-color: #fff7e1 !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 1vw !important
+}
+
+.avatar-color-Sales{
+    background-color: #fff4f0 !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 1vw !important
+}
+
+.avatar-color-Job{
+    background-color: #efefff !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 1vw !important
+}
+
+.size>span{
+    font-size: 20px !important;
+}
+
+.table-container{
+    box-shadow: none!important;
+    width: 100% !important;
+    padding: 2.4px 25px 0 0px !important;
+    padding-left: 45px !important;
+}
+
+.table{
+    width: 100% !important;
+}
+
+@media (max-width: 1200px) {
+    .container-home{
+        justify-content: center !important;
+        width: 100% !important;
+        flex-wrap: wrap;
+        height: 300px !important;
+        padding-right: 20px !important;
+    }
+
+    .box{
+        width: 200px !important;
+    }
+}
+
+@media (max-width: 484px) {
+    .container-home{
+        margin-bottom: 250px;
+        padding-left: 0 !important;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .box-chart-dashboard{
+        flex-direction: column !important;
+        padding-right: 50px !important;
+    }
+
+    .box-doughnut-dashboard{
+        width: 100% !important;
+    }
+
+    .box-table{
+        flex-direction: column !important;
+    }
+
+    .box-chart-line{
+        width: 100% !important;
+    }
+
+    .chart{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .box-table{
+        width: 100% !important;
+        padding-right: 50px;
+    }
+
+    .box-iphone{
+        margin-top: 30px !important;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .box-chart-line{
+        overflow-x: scroll;
+        width: 600px !important;
+    }
+
+    .box-chart-dashboard{
+        overflow-x: scroll;
+    }
+
+    .box-doughnut-dashboard{
+        width: 600px !important;
+        overflow-x: scroll;
+    }
+}

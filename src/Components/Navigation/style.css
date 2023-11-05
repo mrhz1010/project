@@ -1,0 +1,281 @@
+.ul-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  transform: translateX(5px);
+}
+
+.li-list {
+  padding-left: 10px !important;
+}
+
+.container {
+  transition: all 0.5s;
+}
+
+/* Dashboard------------------ */
+
+.Dashboard-hover::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0) 80%,
+    rgba(19, 193, 0, 0.379) 100%
+  );
+  transform-origin: top right;
+  transition: all 0.3s;
+}
+
+.Dashboard-hover:hover::after {
+  transform-origin: top left;
+  width: 32%;
+}
+
+.Dashboard {
+  transition: all 0.3s;
+  transform: translateX(7px);
+}
+
+.Dashboard-hover:hover .Dashboard {
+  color: rgba(19, 193, 0, 0.379);
+}
+
+/* Dashboard------------------ */
+
+/* Analytics------------------ */
+
+.Analytics-hover::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 80%, #5b93ff 100%);
+  transform-origin: top right;
+  transition: all 0.3s;
+}
+
+.Analytics-hover:hover::after {
+  transform-origin: top left;
+  width: 32%;
+}
+
+.Analytics {
+  transition: all 0.3s;
+  transform: translateX(7px);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.Analytics-hover:hover .Analytics {
+  color: #5b93ff;
+}
+
+/* Analytics------------------ */
+
+/* Invoice------------------ */
+
+.Invoice-hover::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 80%, #605bff 100%);
+  transform-origin: top right;
+  transition: all 0.3s;
+}
+
+.Invoice-hover:hover::after {
+  transform-origin: top left;
+  width: 32%;
+}
+
+.Invoice {
+  transition: all 0.3s;
+  transform: translateX(7px);
+}
+
+.Invoice-hover:hover .Invoice {
+  color: #605bff;
+}
+
+/* Invoice------------------ */
+
+/* Schedule------------------ */
+
+.Schedule-hover::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 80%, #d4c900 100%);
+  transform-origin: top right;
+  transition: all 0.3s;
+}
+
+.Schedule-hover:hover::after {
+  transform-origin: top left;
+  width: 32%;
+}
+
+.Schedule {
+  transition: all 0.3s;
+  transform: translateX(7px);
+}
+
+.Schedule-hover:hover .Schedule {
+  color: #d4c900;
+}
+
+/* Schedule------------------ */
+
+/* Calendar------------------ */
+
+.Calendar-hover::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 80%, #d47800 100%);
+  transform-origin: top right;
+  transition: all 0.3s;
+}
+
+.Calendar-hover:hover::after {
+  transform-origin: top left;
+  width: 32%;
+}
+
+.Calendar {
+  transition: all 0.3s;
+  transform: translateX(7px);
+}
+
+.Calendar-hover:hover .Calendar {
+  color: #d47800;
+}
+
+/* Calendar------------------ */
+
+/* Messages------------------ */
+
+.Messages-hover::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 80%, #af0089 100%);
+  transform-origin: top right;
+  transition: all 0.3s;
+}
+
+.Messages-hover:hover::after {
+  transform-origin: top left;
+  width: 32%;
+}
+
+.Messages {
+  transition: all 0.3s;
+  transform: translateX(7px);
+}
+
+.Messages-hover:hover .Messages {
+  color: #af0089;
+}
+
+/* Messages------------------ */
+
+/* Notification------------------ */
+
+.Notification-hover::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 80%, #b20000 100%);
+  transform-origin: top right;
+  transition: all 0.3s;
+}
+
+.Notification-hover:hover::after {
+  transform-origin: top left;
+  width: 32%;
+}
+
+.Notification {
+  transition: all 0.3s;
+  transform: translateX(7px);
+}
+
+.Notification-hover:hover .Notification {
+  color: #b20000;
+}
+
+/* Notification------------------ */
+
+/* Settings------------------ */
+
+.Settings-hover::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 80%, #797979 100%);
+  transform-origin: top right;
+  transition: all 0.3s;
+}
+
+.Settings-hover:hover::after {
+  transform-origin: top left;
+  width: 32%;
+}
+
+.Settings {
+  transition: all 0.3s;
+  transform: translateX(7px);
+}
+
+.Settings-hover:hover .Settings {
+  color: #797979;
+}
+
+/* Settings------------------ */
+
+
+@media (max-width: 1250px) {
+  .container{
+    position: fixed;
+    z-index: 50;
+    height: 70px !important;
+  }
+
+  .container:hover{
+    height: 670px !important;
+  }
+}
